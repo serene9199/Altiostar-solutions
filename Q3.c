@@ -3,7 +3,7 @@
 #include <string.h>
 
 void main(){
-    int i,l,count=0,k=0,max=0,st=0,end,index=0,j;
+    int i,l,count=0,k=0,max=0,index=0,j;
 char lines[5000], s[5000];
 FILE *fp=fopen("sample.txt", "r");
 
@@ -25,6 +25,7 @@ l=strlen(lines); //length of the text copied
  {
 /*Here, hyphenated words are considered as separate words (Eg:multi-vendor considered as 2 separate words)
 We can count it as a single word if we eliminate " lines[i] != '-' " from the given condition*/ 
+     
   if(lines[i] != ' '&&lines[i] != ','&&lines[i] != '.'&&lines[i] != '-'&&lines[i] != '('&&lines[i] != ')')
   {
    count++;
