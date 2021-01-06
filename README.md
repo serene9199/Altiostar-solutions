@@ -14,3 +14,13 @@ For example, the child process can run ‘ls –l’ for listing directory detai
   * The program should open the file and read it line by line.
   * Find the longest word.
   
+  ### Sample Output:
+  #### Question 1:
+  ![Question1](Q10.png)
+  ![Question1](Q11.png)
+  ![Question1](Q12.png)
+  ![Question1](Q13.png)
+  #### Question 2:
+   ![Question2](Q2.png)
+  #### Question 3:  
+   ![Question3](Q3.png)
